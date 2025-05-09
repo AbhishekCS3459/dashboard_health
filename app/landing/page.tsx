@@ -282,10 +282,10 @@ export default function LandingPage() {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <div className="relative w-full max-w-[500px] aspect-square rounded-full bg-gradient-to-b from-primary/20 to-primary/5 flex items-center justify-center animate-fade-in overflow-hidden">
+              <div className="relative w-full max-w-[500px] aspect-square bg-transparent  rounded-full flex items-center justify-center animate-fade-in overflow-hidden">
                 <Image
-                  src="https://www.4sighthealth.com/wp-content/uploads/2021/03/Untitled-design-2021-03-10T172408.882.png"
-                  alt="Healthcare professionals with medical equipment"
+                  src="/images/earth_final.png"
+                  alt="Earth Image"
                   width={600}
                   height={600}
                   className="w-full h-full object-contain sm:object-cover rounded-full animate-floating"
@@ -447,13 +447,13 @@ export default function LandingPage() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center lg:justify-end animate-fade-in">
-              <CardContainer className="w-full" containerClassName="py-0">
-                <CardBody className="overflow-hidden rounded-xl shadow-lg w-full max-w-[600px] aspect-video">
+            <div className="flex items-center justify-center lg:justify-end animate-fade-in bg-transparent ">
+              <CardContainer className="w-full bg-transparent border-none" containerClassName="py-0">
+                <CardBody className="rounded-xl shadow-lg w-full max-w-[600px] aspect-video">
                   <CardItem translateZ="100">
                     <Image
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2fP8ndltAwNWx8aIUlZiFrD3a5TvFQ.png"
-                      alt="Medical heart with stethoscope and nurse cap"
+                      src="/images/eye_img.png"
+                      alt="Eye Image"
                       width={600}
                       height={400}
                       className="w-full h-full object-contain"
